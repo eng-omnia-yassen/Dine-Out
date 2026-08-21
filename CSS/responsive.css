@@ -1,0 +1,463 @@
+@media (max-width: 1300px) {
+header #carouselExampleCaptions .carousel-item:nth-of-type(1).active .carousel-caption h1{
+        font-size: 35px;
+}
+
+header #carouselExampleCaptions .carousel-item:nth-of-type(1).active .carousel-caption p{
+    width: 90%;
+    font-size: 11px;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(1).active .carousel-caption button{
+    width: 100px;
+    height: 30px;
+}
+header  .buttons>button {
+    width: 40px;
+    height: 40px;
+}
+header  .buttons button i {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content img{
+    width: 40%;
+}
+header #carouselExampleCaptions .carousel-item.active:nth-of-type(2) .item .content img{
+    top: 6%;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content h2{
+    font-size: 55px;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content p{
+    font-size: 12px;
+    width: 100%;
+    }
+    header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content p+p{
+    font-size: 25px;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content hr{
+    width: 100%;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content button{
+    width: 110px;
+    height: 30px;
+    border-width: 2px;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 h2{
+    font-size: 20px;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 p
+{
+    font-size: 12px;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 ul  {
+    width: 100%;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 ul li img{
+    width: 50%;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 button{
+    width: 110px;
+    height: 30px;
+    border-width: 2px;
+}
+#MenuNav  ul{
+    width: max-content;
+}
+#MenuNav  ul li{
+    width: 100px;
+}
+#MenuNav ul li img{
+    width: 40px;
+    height: 40px;
+}
+ .title h2{
+    font-size: 35px;
+}
+.title .image::before{
+    left: -5%;
+}
+.title .image::after{
+    right: -5%;
+}
+.title .image img{
+    width: 30%;
+}
+#About .container .part-1 hr{
+    width: 40%;
+    height: 4px;
+
+}
+
+#About .container .part-1 h2{
+    font-size: 17px;
+}
+#About .container .part-1 p{
+    font-size: 12px;
+}
+#About .container .part-1 .info img{
+    width: 15%;
+} 
+#About .container .part-1 .info h4{
+    font-size: 15px;
+}
+#About .container .part-2 .content{
+    height: 200px;
+}
+#About .container .part-2 .content h3{
+    font-size: 25px;
+}
+#Testimonials{
+    height: auto;
+    background-color: #080f12;
+}
+#Testimonials .container .text h2{
+    font-size: 20px;
+}
+#Testimonials .container .text p{
+    width: 100%;
+    font-size: 12px;
+}
+#Menu .tab-pane .item{
+    margin: auto;
+}
+#Menu .nav {
+    width: max-content;
+    margin: auto;
+}
+#Menu .nav button{
+    padding: 15px 30px;
+    row-gap: 15px;
+}
+#Menu .nav button img{
+    width: 35px;
+}
+#Menu .nav button:first-child{
+    border-radius: 5px 0px 0px 5px;
+}
+#Menu .nav button:last-child{
+    border-radius: 0px 5px 5px 0px ;
+}
+#Menu .nav button::after{
+    top: 100%;
+    left: 50%;
+    border-bottom-color: #fff;
+    border-right-color: transparent;
+    transform: translateX(-50%);
+}
+#Menu .nav button.active::after{
+    top: 85%;
+    left: 50%;
+}
+#Team .item{
+    max-width: 280px;
+    margin: auto;
+}
+#Team .item .content{
+    padding:10px 20px;
+}
+#Team .item .content h3{
+    font-size: 16px;
+}
+#Team .item .content h4{
+    font-size: 12px;
+}
+#Order  form{
+    width: 100%;
+    padding: 20px 0px;
+}
+#Order  form .input-group{
+    column-gap: 0px;
+    padding: 3px 0px;
+}
+footer p{
+    font-size: 12px;
+}
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    header #carouselExampleCaptions .carousel-item:nth-of-type(1).active .carousel-caption h1{
+        font-size: 45px;
+    }
+
+    header #carouselExampleCaptions .carousel-item:nth-of-type(1).active .carousel-caption p{
+    width: 90%;
+    font-size: 12px;
+}
+    header #carouselExampleCaptions .carousel-item:nth-of-type(1).active .carousel-caption button{
+    width: 130px;
+    height: 40px;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(1) .carousel-caption button:hover span {
+    font-size: 20px;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content img{
+    width: 35%;
+}
+header #carouselExampleCaptions .carousel-item.active:nth-of-type(2) .item .content img{
+    top: 6%;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content h2{
+    font-size: 60px;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content p{
+    font-size: 13px;
+    width: 90%;
+    }
+    header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content p+p{
+    font-size: 25px;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content hr{
+    width: 100%;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content button{
+    width: 140px;
+    height: 45px;
+    border-width: 2px;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 h2{
+    font-size: 25px;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 p
+{
+    font-size: 14px;
+}
+
+header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 ul li img{
+    width: 40%;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 button{
+   width: 140px;
+    height: 50px;
+}
+#Menu .nav button{
+    padding: 15px 40px;
+    row-gap: 15px;
+}
+#Menu .nav button img{
+    width: 35px;
+}
+#Team .item .content h3{
+    font-size: 20px;
+}
+#Team .item .content h4{
+    font-size: 16px;
+}
+#Team .row{
+    row-gap: 70px;
+}
+}
+@media (min-width: 577px) and (max-width: 1300px) {
+    header #carouselExampleCaptions .carousel-item:nth-of-type(1).active .carousel-caption h1{
+        font-size: 50px;
+    }
+
+    header #carouselExampleCaptions .carousel-item:nth-of-type(1).active .carousel-caption p{
+    width: 75%;
+    font-size: 13px;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content p{
+    font-size: 13px;
+    width: 70%;
+    }
+    header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content p+p{
+    font-size: 25px;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content hr{
+    width: 75%;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content button{
+    width: 140px;
+    height: 45px;
+    border-width: 2px;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 ul li img{
+    width: 25%;
+}
+#MenuNav  ul li{
+    width: 120px;
+}
+#About .container .part-1 h2{
+    font-size: 25px;
+}
+#About .container .part-1 p{
+    font-size: 16px;
+}
+#About .container .part-1 .info img{
+    width: 10%;
+} 
+#About .container .part-1 .info h4{
+    font-size: 18px;
+}
+#About .container .part-2 .content{
+    height: 280px;
+}
+#Testimonials .container .text h2{
+    font-size: 30px;
+}
+
+#Testimonials .container .text p{
+    width: 100%;
+    font-size: 15px;
+}
+#Testimonials .container .item img{
+    width: 25%;
+}
+#Testimonials .container .item h3{
+    font-size: 22px;
+}
+#Menu .nav button{
+    padding: 15px 20px;
+}
+#Menu .item{
+    max-width: 280px;
+}
+footer p{
+    font-size: 16px;
+}
+}
+@media (min-width: 769px) and (max-width: 1300px) {
+    header #carouselExampleCaptions .carousel-item:nth-of-type(1).active .carousel-caption h1{
+        font-size: 65px;
+    }
+    header #carouselExampleCaptions .carousel-item:nth-of-type(1).active .carousel-caption p{
+    width: 60%;
+    font-size: 13px;
+}
+header  .buttons>button {
+    width: 50px;
+    height: 50px;
+}
+header  .buttons button i {
+    font-size: 15px;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content p{
+    font-size: 13px;
+    width: 100%;
+    }
+    header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content p+p{
+    font-size: 25px;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content hr{
+    width: 100%;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content button{
+    width: 140px;
+    height: 45px;
+    border-width: 2px;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-1 img{
+    width: 100%;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 ul li img{
+    width: 35%;
+}
+#MenuNav  ul{
+    width: 100%;
+}
+#MenuNav  ul li{
+    width: calc(100%/7);
+}
+#About  .container h3{
+    font-size:20px;
+}
+#About .container .part-1 h2{
+    font-size: 20px;
+}
+#About .container .part-1 p{
+    font-size: 12px;
+}
+#About .container .part-1 .info img{
+    width: 15%;
+} 
+#About .container .part-1 .info h4{
+    font-size: 15px;
+}
+#About .container .part-2 .content{
+    height: 250px;
+}
+#Testimonials{
+    height: 560px;
+    color: #fff;
+}
+#Testimonials .container .text p{
+    width: 85%;
+    font-size: 15px;
+}
+#Testimonials .container .item img{
+    width: 30%;
+}
+#Testimonials .container .item h4{
+    font-size: 18px;
+}
+#Testimonials .container .item h3{
+    font-size: 18px;
+}
+#Team .item .content{
+    padding: 5px 10px;
+}
+#Team .item .content h3{
+    font-size: 16px;
+}
+#Team .item .content h4{
+    font-size: 16px;
+}
+#Team .row{
+    row-gap: 0px;
+}
+#Order  form{
+    width: 350px;
+    padding: 20px 0px;
+}
+}
+@media (min-width: 992px) and (max-width: 1300px) {
+header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-1 img{
+    width: 80%;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 ul  {
+    width: 75%;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(3) .part-2 ul li img{
+    width: 30%;
+}
+#About  .container h3{
+    font-size:25px;
+}
+#Testimonials .container .item img{
+    width: 25%;
+}
+#Menu .nav button{
+    padding: 15px 20px;
+}
+#Menu .nav button::after{
+    top: 50%;
+    left: 100%;
+    border-right-color: #fff;
+    border-bottom-color: transparent;
+}
+#Menu .nav button.active::after{
+    top: 50%;
+    left: 90%;
+}
+}
+@media (min-width: 1181px) and (max-width: 1300px) {
+header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content h2{
+    font-size: 85px;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content p{
+    font-size: 15px;
+    width: 90%;
+    }
+    header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content p+p{
+    font-size: 30px;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content hr{
+    width: 100%;
+}
+header #carouselExampleCaptions .carousel-item:nth-of-type(2) .item .content button{
+    width: 140px;
+    height: 45px;
+    border-width: 2px;
+}
+}

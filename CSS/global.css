@@ -1,0 +1,66 @@
+:root{
+    --main-color:#f1b601;
+    --mix:linear-gradient(
+          to right
+          ,rgb(44, 83, 100)
+          ,rgb(32, 58, 67)
+          ,rgb(15, 32, 39));
+}
+html{
+    scroll-behavior: smooth;
+    scrollbar-width: 10px;
+    ::-webkit-scrollbar{
+        width: 12px;
+    }
+    ::-webkit-scrollbar-thumb{
+        background-color: var(--main-color);
+        border-radius: 10px;
+    }
+    ::-webkit-scrollbar-track{
+        background-image: var(--mix);
+    }
+}
+body{
+    font-family: "Poppins", sans-serif;
+    height: 7000px;
+    background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+    height: auto;}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: "Dancing Script", cursive;
+}
+.title{
+    width: fit-content;
+}
+.title h2,
+.container .part-1 h2 {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+ .title h2{
+    font-size: 45px;
+}
+.title .image{
+    position: relative;
+    width: 100%;
+}
+.title .image::after,
+.title .image::before{
+    content: "";
+    display: block;
+    background-color: #fff;
+    width:35%;
+    height: 2px;
+    position: absolute;
+    top: 50%;
+}
+.title .image::before{
+    left: -10%;
+}
+.title .image::after{
+    right: -10%;
+}
