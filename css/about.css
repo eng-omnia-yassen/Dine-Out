@@ -1,0 +1,68 @@
+/* meals  */
+.meals .content ul li{
+    background-image: radial-gradient(#2c5364, #203a43, #0f2027);
+   
+}
+.meals .content ul li img{
+    width: 30%;
+}
+/* About section */
+#AboutUs{
+    background-image: var(--backGround);
+}
+#AboutUs  .box .item p{
+    font-size:clamp(20px ,1vw,30px);
+    margin-bottom: 0rem;
+    
+}
+#AboutUs .box .item hr{
+    height: 3px;
+    opacity: 1;
+    border-radius: 5px;
+}
+#AboutUs .box .content p {
+    font-size:clamp(14px,1vw,25px);
+    font-weight: 400;
+}
+#AboutUs .box .content .check h5 {
+    margin-bottom: 0rem;
+    margin-top: 0rem;
+}
+#AboutUs  .box .item.bg {
+    background-image: url("../images/about-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    height: 280px;
+    width: 100%;
+}
+#AboutUs .box .item.bg h3{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#AboutUs  .box .item.bg::before{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    border: 4px solid var(--bs-warning);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    animation-name: rotate;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+
+}
+#AboutUs  .box .content .check img {
+    width: 25px;
+    margin-right: 10px;
+}
+#AboutUs  .box .content a {
+    border-radius: 50px;
+    padding-inline: 20px;
+}

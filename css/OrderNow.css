@@ -1,0 +1,32 @@
+#OrderNow{
+    background-image: url("../images/bg_wood.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+#OrderNow .content .container .box form{
+    background-image: url("../images/chef-bg.png");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-color: #333333;
+    width: 400px;
+    border-radius: 10px;
+}
+#OrderNow .content .container .box form .input-group,
+#OrderNow .content .container .box form button{
+    width: 90%;
+}
+#OrderNow .content .container .box form .form-control:focus {
+        box-shadow: 0 0 0 0rem rgba(0,0,0,0);
+}
+#OrderNow .content .container .box form textarea{
+    resize: none;
+}
+#OrderNow .content .container .box img{
+    animation-duration: 1.5s;
+    animation-name: delivery;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}

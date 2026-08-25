@@ -1,0 +1,93 @@
+#Menu{
+    background-image: var(--backGround);
+}
+#Menu .content .table-responsive{
+    width: fit-content;
+}
+#Menu .content  .nav.box {
+    width: 80px;
+    height: fit-content;
+}
+#Menu .content  .box .nav-link{
+background-image: radial-gradient(#2c5364, #203a43, #0f2027);
+}
+#Menu .content  .box .nav-link::before{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    border-top: 10px solid transparent;
+    border-right: 10px solid #FFF;
+    border-bottom: 10px solid transparent;
+}
+#Menu .content  .box .nav-link.active::before{
+    transform: translate(-100%,-50%);
+}
+#Menu .content  .nav-link {
+    color: #fff;
+    /* padding: 20px 20px; */
+}
+#Menu .nav-pills .nav-link.active,
+#Menu .nav-pills .show>.nav-link {
+    background-color: transparent;
+}
+#Menu .content .box .nav-link img{
+    width: 85%;
+}
+#Menu .content .tab-content .tab-pane .box{
+    /* transform: scale(0); */
+    opacity: 0;
+    transition-duration: 1s;
+}
+#Menu .content .tab-content .tab-pane.active.show .box{
+    opacity: 1;
+}
+#Menu .content .tab-content .tab-pane .item{
+    border-radius: 10px;
+    overflow: hidden;
+    transition-duration: 1s;
+}
+#Menu .content .tab-content .tab-pane .item:hover{
+    box-shadow: 0 5px #f1b60166, 
+    0 10px #f1b6014d, 
+    0 15px #f1b60133, 
+    0 20px #f1b6011a, 
+    0 25px #f1b6010d, 
+    -5px 5px 40px #f1b60166;
+    transform: translateY(-10px);
+}
+#Menu .content .tab-content .tab-pane .item .head{
+    transform: scale(0);
+    transition-duration: 1s;
+    transition-delay: .2s;
+}
+#Menu .content .tab-content .tab-pane.show .item .head{
+    transform: scale(1);
+}
+#Menu .content .tab-content .tab-pane .item .body>*{
+    transform: translateX(-50px);
+    opacity: 0;
+    transition-duration: 1s;
+    transition-delay: .2s;
+}
+#Menu .content .tab-content .tab-pane.show .item .body>*{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+#Menu .content .tab-content .tab-pane .item .icons{
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+/* #Menu .content .tab-content .tab-pane{} */
+/* #Menu .content .tab-content .tab-pane .item .icons{
+    opacity: 0;
+    transition-duration: 1s;
+} */
+/* #Menu .content .tab-content .tab-pane.show .item .icons{
+    opacity: 1;
+    transition-delay: 2s;
+} */

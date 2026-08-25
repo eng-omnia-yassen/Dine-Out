@@ -1,0 +1,278 @@
+@media (max-width: 1300px) {
+    /* home */
+    #Home  .carousel-inner .carousel-item:nth-of-type(1) .content p{
+        width: 100%;
+        /* font-size: 12px; */
+    }
+    #Home  .carousel-inner .carousel-item:nth-of-type(2) .content .box:nth-of-type(1) .item img{
+        width: 40%;
+    }
+    #Home .buttons{
+        right: 0;
+    }
+    #Home .carousel-control-prev,
+    #Home .carousel-control-next{
+        width: 40px;
+        height: 40px;
+    }
+    /* meals */
+    .meals .content ul{
+        width: max-content;
+    }
+    .meals .content li{
+        width: 120px;
+    }
+    .meals .content li img{
+        width: 30%;
+    }
+    /* title responsive */
+    .title .img img{
+        width: 50px;
+        display: block;
+    }   
+    /*About responsive section */
+    #AboutUs  .box .item.bg {
+        height: 200px;
+        margin:20px 0px;
+        /* width: 360px; */
+    }
+    #AboutUs .box .content h5 {
+        font-size: 18px;
+    }
+    #AboutUs  .box .item.bg h3 {
+        transform: translate(-25%,-50%);
+    }
+    /* Testimonials section  */
+    #Testimonials{
+        background-image: var(--backGround);
+    }
+    #Testimonials  .content h3{
+        font-size: 20px;
+    }
+    #Testimonials  .content p{
+    width: 100%;
+    font-size: 12px;
+    }
+    #Testimonials  .content .box .item{
+        width: 280px;
+    }
+    /* Menu responsive section */
+    #Menu .content  .nav.box {
+        flex-wrap: nowrap;
+        justify-content: center;
+        width: max-content;
+        margin:0px 0px 20px 0px;
+    }
+    #Menu .content  .nav.box .nav-link{
+        padding: 20px 10px;
+        width: 100px;
+    }
+    #Menu .content  .box .nav-link::before{
+        top: 100%;
+        left: 50%;
+        border-top: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-left:10px solid transparent;
+        border-bottom: 10px solid #fff;
+    }
+    #Menu .content  .box .nav-link.active::before{
+        transform: translate(-50%,-100%);
+    }
+    #Menu .content .box .nav-link img{
+        width: 50px;
+    }
+    #Menu .content .tab-content .tab-pane .box{
+        max-width: 280px;
+        margin: 0px auto;
+    }
+    /* Team responsive section */
+    #Team .container .box {
+        width: 320px;
+    }
+    #Team .container .box .item .chef-name{
+        width: 82%;
+    }
+    /* order responsive section */
+    #OrderNow .content .container .box form{
+        width: 100%;
+    }
+    #OrderNow .content .container .box form .input-group,
+    #OrderNow .content .container .box form button{
+        width: 100%;
+    }
+}
+
+@media (min-width: 371px) and (max-width: 1300px) {
+    #Home  .carousel-inner .carousel-item:nth-of-type(2) .content .box:nth-of-type(1) .item img{
+        width: 30%;
+    }
+    /* title responsive */
+    .title .img img{
+    width: 65px;
+    display: block;
+    }   
+    /*About responsive section */
+    #AboutUs  .box .item.bg h3 {
+        transform: translate(-50%,-50%);
+    }
+}
+
+@media (min-width: 577px) and (max-width: 1300px) {
+    #Home  .carousel-inner .carousel-item:nth-of-type(1) .content p{
+        width: 75%;
+    }
+    #Home  .carousel-inner .carousel-item:nth-of-type(2) .content .item {
+        width: 85%;
+    }
+    #Home  .carousel-inner .carousel-item:nth-of-type(2) .content .box:nth-of-type(1) .item img{
+        width:35%;
+    }
+    #Home  .carousel-inner .carousel-item:nth-of-type(3) .content .item {
+        width: 90%;
+    }
+    /* title responsive */
+    .title .img img{
+    width: 80px;
+    display: block;
+    }   
+    /* Testimonials section  */
+    #Testimonials  .content h3{
+        font-size: 30px;
+    }
+    #Testimonials  .content p{
+        font-size: 16px;
+    }
+    /* Menu responsive section */ 
+    #Menu .content .table-responsive{
+        margin: auto;
+    }
+    #Menu .content  .nav.box .nav-link{
+        width: 85px;
+        padding: 15px 20px;
+    }
+    #Menu .content .box .nav-link img{
+        width: 35px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1300px) {
+    #Home  .carousel-inner .carousel-item:nth-of-type(1) .content p{
+        width: 60%;
+    }
+    #Home  .carousel-inner .carousel-item:nth-of-type(2) .content .box:nth-of-type(1) .item {
+        width:initial;
+    }
+    #Home  .carousel-inner .carousel-item:nth-of-type(2) .content .box:nth-of-type(1) .item img{
+        width:50%;
+    }
+    #Home  .carousel-inner .carousel-item:nth-of-type(3) .content .item {
+        width:initial;
+    }
+    #Home .buttons{
+        right: 30px;
+    }
+    #Home .carousel-control-prev,
+    #Home .carousel-control-next{
+        width: 45px;
+        height: 45px;
+    }
+    /* meals */
+    .meals .content ul{
+        width: initial;
+    }
+     .meals .content li{
+        width: 125px;
+    }
+    /* title responsive */
+    .title .img img{
+        width: 85px;
+        display: block;
+    }   
+    /*About responsive section */
+    #AboutUs .box .item.bg {
+        height: 280px;
+    }
+    #AboutUs  .box .item.bg h3 {
+        transform: translate(-25%,-50%);
+    }
+    /* Testimonials section  */
+    #Testimonials  .content p{
+        width: 90%;
+        
+    }
+    /* Menu responsive section */
+    #Menu .content .tab-content .tab-pane .box{
+        margin: initial;
+    }
+    /* Team responsive section */
+    #Team .container .box  {
+        width: 240px;
+        padding: 0px 0px;
+    }
+    #Team .container .box .item .chef-name{
+        width: 78%;
+    }
+    
+}
+
+@media (min-width: 992px) and (max-width: 1300px) {
+    /* home responsive section */
+    #Home  .carousel-inner .carousel-item:nth-of-type(1) .content p{
+        width: 55%;
+    }
+    /* meals responsive section */
+    .meals .content li {
+        width: 150px;
+    }
+    /*About responsive section */
+    #AboutUs  .box .item.bg h3 {
+        transform: translate(-50%,-50%);
+    }
+    /* Menu responsive section */ 
+    #Menu .content .tab-content .tab-pane .box{
+        max-width: 280px;
+    }
+    /* Team responsive section */
+    #Team .container .box  {
+        width: 320px;
+    }
+     #Team .container .box .item .chef-name{
+        width: 82%;
+    }
+
+    #Menu .content .table-responsive{
+        width: fit-content;
+        margin: 0px;
+    }
+    #Menu .content  .nav.box {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: start;
+        width: 100;
+        margin:0px 0px 0px 0px;
+    }
+    #Menu .content  .nav.box .nav-link{
+        width:initial;
+        /* padding: 15px 0px; */
+    }
+    #Menu .content  .box .nav-link::before{
+        top: 50%;
+        left: 100%;
+        border-top: 10px solid transparent;
+        border-right: 10px solid #FFF;
+        border-bottom: 10px solid transparent;
+    }
+    #Menu .content  .box .nav-link.active::before{
+        transform: translate(-100%,-50%);
+    }
+    #Menu .content .box .nav-link img{
+        width: 40px;
+        /* padding: 0px 15px; */
+    }
+    /* order responsive section */
+    #OrderNow .content .container .box form{
+        width: 400px;
+    }
+}
+
+@media (min-width: 1181px) and (max-width: 1300px) {}

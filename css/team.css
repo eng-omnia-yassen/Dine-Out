@@ -1,0 +1,42 @@
+/* Team section  */
+#Team {
+    background-image: var(--backGround);
+}
+#Team .container .box{
+    overflow: hidden;
+}
+#Team .container .box .item {
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+#Team .container .box .item img{
+    overflow: hidden;
+    border-radius: 10px;
+    transition-duration: .5s;
+}
+#Team .container .box .item:hover img{
+    transform: skewY(3deg)
+}
+#Team .container .box .item .chef-name{
+    background-image: var(--backGround);
+    bottom:-35px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 300px;
+    border-radius: 10px;
+    transition-duration: .5s;
+    color: var(--bs-gray);
+}
+#Team .container .box .item .chef-name p{
+    color: var(--bs-warning) ;
+    transition-duration: .5s;
+    font-size: clamp(20px,2vw,30px);
+}
+#Team .container .box .item:hover .chef-name {
+    transform: translate(-50%,-80%);
+    color: #fff;
+    background-image:linear-gradient(rgb(255 193 7));
+ }
+#Team .container .box .item:hover .chef-name p{ 
+    color: #fff;
+}

@@ -1,0 +1,46 @@
+/* Testimonials section  */
+
+#Testimonials::before{
+    content: "";
+    display: block;
+    background-color: rgba(0, 0, 0, .7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 2;
+}
+#Testimonials .video{
+    height: 500px;
+    z-index: 1;
+    
+}
+#Testimonials .video video{
+    object-fit: cover;
+
+}
+#Testimonials  .content{
+    z-index: 3;
+}
+#Testimonials  .container{
+    top: 0;
+    left: 0;
+}
+#Testimonials  .content hr{
+    opacity: 1;
+    height: 3px;
+    border-radius: 5px;
+}
+#Testimonials  .content p{
+    width: 75%;
+}
+#Testimonials  .content .box .item{
+    background-image: linear-gradient(to right, 
+    rgba(44, 83, 100,.7),
+    rgba(32, 58, 67,.7),
+    rgba(15, 32, 39,.7));
+    border-radius: 10px;
+    padding: 15px 0px;
+}
+#Testimonials  .content .box .item img{
+    width: 20%;
+}
